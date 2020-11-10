@@ -1,0 +1,197 @@
+/* Overall Style */
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1;
+}
+
+header {
+    font-size: 40px;
+    font-weight: bolder;
+    background-color:  rgb(58, 58, 58);
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+.container {
+    width: 100%;
+    padding-top: 20px;
+    clear: both;
+    float: right;
+}
+
+section {
+    overflow: auto;
+    clear: both;
+    width: 100%;
+  }
+
+/* City search sidebar */
+
+#sideNav {
+    height: 100%; 
+    position: fixed;
+    top: 90px; 
+    left: 0;
+    background-color: rgb(247, 245, 245);
+}
+
+h1 {
+    font-size: 20px;
+    text-align: left;
+    padding: 20px 0px 10px 5px;   
+}
+
+#basic-text1 {
+    background-color: #007bff;;
+}
+
+.fas {
+    color: white;
+}
+
+/* Daily Forecast */
+
+h2 {
+    font-size: 30px;
+    text-align: left;
+    font-weight: bolder;
+    padding: 20px;
+}
+
+p {
+    padding-bottom: 250px;
+    color: grey;
+}
+
+a {
+    font-size: 18px;
+    color: grey;
+    line-height: 35px;
+}
+
+ul {
+    color: grey;
+    font-size: 18px;
+    line-height: 24px;
+    padding-left: 20px;
+}
+
+/* UV Index Colors */
+
+.green {
+    background-color:green;
+    color: white;
+    margin-left: 20px;
+    padding: 15px;
+    margin-bottom: 30px;
+    border: none;
+}
+
+.orange {
+    background-color: orange;
+    color: white;
+    padding: 15px;
+    margin-bottom: 30px;
+    border: none;
+}
+
+.yellow {
+    background-color:yellow;
+    color: black;
+    margin-left: 20px;
+    padding: 15px;
+    margin-bottom: 30px;
+    border: none;
+}
+
+.red {
+    background-color: red;
+    color: white;
+    margin-left: 20px;
+    padding: 15px;
+    margin-bottom: 30px;
+    border: none;
+}
+
+.purple {
+    background-color: purple;
+    color: white;
+    margin-left: 20px;
+    padding: 15px;
+    margin-bottom: 30px;
+    border: none;
+}
+
+/* 5-Day Forecast */
+
+#fiveDay {
+    text-align: left;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    font-size: 30px;
+    color: black;
+}
+
+#dailyforcast {
+    width: 100%;
+    padding: 0;
+    margin: 5px 0px 0px 15px;
+}
+
+.card-deck {
+    margin: 0 auto; 
+    float: none; 
+    margin-bottom: 10px;
+    align-content: center;
+}
+
+.fiveDayCard {
+    border: none;
+}
+
+.card-header {
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    padding-bottom: 0px;
+    border: none;
+}
+
+.card-body {
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 16px;
+    line-height: 30px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 576px) {
+    .navbar-brand {
+    text-align: center;
+    padding: 0 auto;
+    width: 100%;
+}
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-brand { 
+    text-align: center;
+    padding: 0 auto;
+    width: 100%;
+}
+}
